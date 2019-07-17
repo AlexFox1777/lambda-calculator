@@ -1,0 +1,8 @@
+@import "../../mixins";
+
+.special{
+  @include btn(#ff839c, white);
+  width: 40px;
+  height: 40px;
+  margin: 6px 8px 5px 0;
+}

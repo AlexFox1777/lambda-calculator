@@ -1,0 +1,13 @@
+@import "../../mixins";
+
+.operator-container{
+  display: flex;
+  flex-direction: column;
+
+}
+.operator{
+  @include btn(#c0b6ff, white);
+  width: 40px;
+  height: 40px;
+  margin: 0 0 7px 10px;
+}

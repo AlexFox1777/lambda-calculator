@@ -1,9 +1,9 @@
 import React from "react";
-import "./display.scss";
+import "./_display.scss";
 import Logo from "./Logo";
 
 const Display = () => {
-  return <div className="display">0</div>;
+  return <div className="display"><p>0</p></div>;
 };
 
 export default Display;

@@ -1,9 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 
-const NumberButton = ({number}) => {
+const NumberButton = ({number, incrementCount}) => {
+
   return (
     <>
-      <button className="number">{number}</button>
+      <button className={`num${incrementCount} number`} >{number}</button>
     </>
   );
 };

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import "./_operators.scss"
 //import any components needed
 import OperatorButton  from "./OperatorButton"
 //Import your array data to from the provided data file
@@ -10,7 +10,7 @@ const Operators = () => {
   const [arrOfOperators, setOperatorValue] = useState(operators)
   console.log("operators" + arrOfOperators)
   return (
-    <div>
+    <div className = "operator-container">
       {
         arrOfOperators.map((item, index)=>(
             <OperatorButton operator={item.char} key={index} />
