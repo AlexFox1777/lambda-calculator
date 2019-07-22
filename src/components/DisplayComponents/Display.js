@@ -1,5 +1,9 @@
 import React from "react";
+import "./_display.scss";
+import Logo from "./Logo";
 
 const Display = () => {
-  return <div>{/* Display any props data here */}</div>;
+  return <div className="display"><p>0</p></div>;
 };
+
+export default Display;
